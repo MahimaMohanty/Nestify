@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: linear-gradient(120deg, #eef2ff, #fdf2f8);
+  color: #0f172a;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.5px;
+}
+
+button, input {
+  font-family: inherit;
+}
+
+button {
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px !important;
+  }
+
+  .mobile-stack {
+    flex-direction: column !important;
+  }
+}
